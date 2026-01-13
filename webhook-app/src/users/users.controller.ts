@@ -9,10 +9,11 @@ export class UsersController {
     return {
       message: 'User created successfully',
       data: createUserDto,
-      msg:"Testing",
+      "msg":"Testing",
     };
   }
 }
+
 
 
 
