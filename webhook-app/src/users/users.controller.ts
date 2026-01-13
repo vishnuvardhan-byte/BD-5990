@@ -5,9 +5,11 @@ import { CreateUserDto } from './dto/create-user.dto';
 export class UsersController {
   @Post()
   createUser(@Body() createUserDto: CreateUserDto) {
+    console.log("testing the NGROK...");
     return {
       message: 'User created successfully',
       data: createUserDto,
     };
   }
 }
+
